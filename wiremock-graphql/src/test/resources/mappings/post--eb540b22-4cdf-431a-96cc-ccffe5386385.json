@@ -1,0 +1,30 @@
+{
+  "id" : "eb540b22-4cdf-431a-96cc-ccffe5386385",
+  "name" : "",
+  "request" : {
+    "url" : "/",
+    "method" : "POST",
+    "headers" : {
+      "Accept" : {
+        "equalTo" : "text/plain, application/json, application/*+json, */*"
+      }
+    },
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"query\":\"{ getGreeting(name: \\\"Javed\\\") }\"}",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"data\":{\"getGreeting\":\"Hello, Javed!\"}}",
+    "headers" : {
+      "Keep-Alive" : "timeout=60",
+      "Date" : "Fri, 20 Dec 2024 09:23:20 GMT",
+      "Content-Type" : "application/json"
+    }
+  },
+  "uuid" : "eb540b22-4cdf-431a-96cc-ccffe5386385",
+  "persistent" : true,
+  "insertionIndex" : 3
+}

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.javathoughts.wiremock_graphql_1.GraphQLTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.189 s <<< FAILURE! - in com.javathoughts.wiremock_graphql_1.GraphQLTest
+com.javathoughts.wiremock_graphql_1.GraphQLTest  Time elapsed: 0.189 s  <<< ERROR!
+wiremock.org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8089 [localhost/127.0.0.1] failed: Connection refused
+	at com.javathoughts.wiremock_graphql_1.GraphQLTest.setupWireMock(GraphQLTest.java:24)
+
